@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_view"
+        android:layout_weight="15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></android.support.v4.view.ViewPager>
+
+    <RadioGroup
+
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:id="@+id/main_radio_but"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:checked="true"
+
+            android:background="@mipmap/yi"
+            android:button="@null"
+            android:id="@+id/ra_home"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:button="@null"
+            android:background="@mipmap/er"
+            android:id="@+id/ra_find"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:button="@null"
+            android:background="@mipmap/yi"
+            android:id="@+id/ra_cart"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:button="@null"
+            android:background="@mipmap/san"
+            android:id="@+id/ra_ding"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:button="@null"
+            android:background="@mipmap/si"
+            android:id="@+id/ra_my"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+</LinearLayout>
